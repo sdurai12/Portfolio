@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Durairaj | Web Developer</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+  <h2>Portfolio</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero fade">
+  <div class="hero-text">
+    <h4>Hello, it's Me</h4>
+    <h1>Durairaj</h1>
+    <h3>And I'm a <span class="typing"></span></h3>
+    <p>Fresher web developer skilled in frontend and backend technologies.</p>
+    <div class="socials">
+      <a href="https://www.facebook.com/durairaj.durai.7796" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://linkedin.com/in/durairaj-s" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><i class="fas fa-envelope"></i></a>
+    </div>
+    <a href="img/DurairajResume.pdf" download class="btn">Download CV</a>
+  </div>
+  <div class="hex"><img src="img/Profile.jpg" alt="Durairaj"></div>
+</section>
+
+<section id="about" class="about fade">
+  <div>
+    <h2>About Me</h2>
+    <p>Detail-oriented Web Developer with hands-on experience in building responsive and
+      user-friendly websites and applications. Skilled in front-end and back-end technologies
+      with a strong focus on clean code, performance, and scalability.</p>
+  </div>
+  <div class="hex"><img src="img/Profile.jpg"></div>
+</section>
+
+<section id="skills" class="fade">
+  <h2>Skills</h2>
+
+  <!-- Percentage skills -->
+  <div class="skill">
+    <span>HTML <b>90%</b></span>
+    <div class="bar"><div style="width:90%"></div></div>
+  </div>
+  <div class="skill">
+    <span>CSS <b>85%</b></span>
+    <div class="bar"><div style="width:85%"></div></div>
+  </div>
+  <div class="skill">
+    <span>JavaScript <b>80%</b></span>
+    <div class="bar"><div style="width:80%"></div></div>
+  </div>
+  <div class="skill">
+    <span>React.js <b>75%</b></span>
+    <div class="bar"><div style="width:75%"></div></div>
+  </div>
+
+  <!-- Skill tags -->
+  <div class="skill-tags">
+    <span class="node">Node.js</span>
+    <span class="corejava">Core Java</span>
+    <span class="advjava">Advanced Java</span>
+    <span class="spring">Spring Boot</span>
+    <span class="mysql">MySQL</span>
+  </div>
+</section>
+
+<section id="projects" class="fade">
+    <h2>Projects</h2>
+    <div class="projects">
+      <!-- Project Card 1 -->
+      <div class="card">
+        <img src="img/Project1.png" alt="E-Commerce Website" style="border-radius:15px;width:100%;height: 180px;object-fit:cover;">
+        <h3>E-Commerce Website</h3>
+        <p>Fully responsive e-commerce platform with product listing, cart, and checkout functionality.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript, React, Node.js</p>
+        <div class="project-links" style="margin-top:10px;">
+          <a href="https://github.com/sdurai12/e-commerce-website " target="_blank" class="btn" style="font-size:14px;padding:8px 16px;">GitHub</a>
+        
+        </div>
+      </div>
+  
+      <!-- Project Card 2 -->
+      <div class="card">
+        <img src="img/Project2.png" alt="Calculator App" style="border-radius:15px;width:100%;height:180px;object-fit:cover;">
+        <h3>Calculator App</h3>
+        <p>Simple calculator app for basic arithmetic operations with a clean UI.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        <div class="project-links" style="margin-top:10px;">
+          <a href="https://github.com/sdurai12/e-commerce-website " target="_blank" class="btn" style="font-size:14px;padding:8px 16px;">GitHub</a>
+          
+        </div>
+      </div>
+  
+      <!-- Add more project cards similarly -->
+    </div>
+  </section>
+  <section id="contact" class="fade contact-section">
+    <h2>Contact Me</h2>
+  
+    <div class="contact-box">
+      <form action="https://formspree.io/f/xwvklwvk" method="POST">
+        
+        <input type="text" name="name" placeholder="Your Name" required>
+        
+        <input type="email" name="email" placeholder="Your Email" required>
+        
+        <input type="text" name="subject" placeholder="Subject" required>
+        
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+  
+        <!-- Optional -->
+        <input type="hidden" name="_subject" value="New Portfolio Message">
+  
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+<script src="main.js"></script>
+
+<a
+  href="https://wa.me/919952199609"
+  class="whatsapp-float"
+  target="_blank"
+  aria-label="Chat on WhatsApp"
+>
+  <i class="fab fa-whatsapp"></i>
+</a>
+<footer class="footer">
+  <p>© 2026 Durairaj | Web Developer</p>
+
+  <div class="footer-socials">
+    <a href="https://github.com/sdurai12" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/durairaj-s" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="mailto:sdurai8585@gmail.com">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
